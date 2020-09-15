@@ -1,170 +1,134 @@
 <html>
-    <head>
-        <title>Formulaire</title>
-    </head>
-
+<head>
+    <title>Formulaire</title>
+</head>
     <body>
-        <style>
-             form {
- 
-  margin: 0 auto;
-  width: 400px;
-  
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-}
+    <form action="Formulaire">
+        <fieldset>
 
-form div + div {
-  margin-top: 1em;
-}
+        Civilité:
+        <label for="title_1">
+            <input type="radio" id="title_1" name="title" value="M." >
+            Mr
+          </label>
+        <label for="title_2">
+            <input type="radio" id="title_2" name="title" value="Mme.">
+            Mme ou Mlle
+          </label>
+          
+          <p>
+            <label for="name">
+              Nom :
+            </label>
+            <input type="text" id="name" name="username">
+          </p>
+          <p>
+            <label for="name">
+              Prénom : 
+            </label>
+            <input type="text" id="name" name="username">
+          </p>
+          <p>
+            <label for="date">
+              Date de naissance :
+            </label>
+            <select id="date" name="date">
+             <option value="1">1</option> 
+             <option value="1">2</option>  
+             <option value="1">3</option>
+             <option value="1">4</option>
+             <option value="1">5</option>
+             <option value="1">6</option>
+             <option value="1">7</option>
+             <option value="1">8</option>
+             <option value="1">9</option>
+             <option value="1">10</option>
+             <option value="1">11</option>
+             <option value="1">12</option>
+             <option value="1">13</option>
+             <option value="1">14</option>
+             <option value="1">15</option>
+             <option value="1">16</option>
+             <option value="1">17</option>
+             <option value="1">18</option>        
+             <option value="1">19</option>
+             <option value="1">20</option>
+             <option value="1">21</option>
+             <option value="1">22</option>
+             <option value="1">23</option>
+             <option value="1">24</option>
+             <option value="1">25</option>
+             <option value="1">26</option>
+             <option value="1">27</option>
+             <option value="1">28</option>
+             <option value="1">29</option>
+             <option value="1">30</option>
+             <option value="1">31</option>
 
-label {
-  
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
+            </select>
+            <select name="month" id="month">
+                <option value="2">1</option>
+                <option value="2">2</option>
+                <option value="2">3</option>
+                <option value="2">4</option>
+                <option value="2">5</option>
+                <option value="2">6</option>
+                <option value="2">7</option>
+                <option value="2">8</option>
+                <option value="2">9</option>
+                <option value="2">10</option>
+                <option value="2">11</option>
+                <option value="2">12</option>
 
-input, textarea {
-  
-  font: 1em sans-serif;
+            </select>
+            Année:
+            <input type="text" id="date" name="year"> 
+        </p>
+        <p>
+            <label for="number">
+              Numéro 
+            </label>
+            <input type="text" id="name" name="username">
 
-  
-  width: 300px;
-  box-sizing: border-box;
+            <label for="number">
+                Rue 
+              </label>
+              <input type="text" id="name" name="username">
+          </p>
 
- 
-  border: 1px solid #999;
-}
+          Adresse:
+          <p>
+            <label for="number">
+                Code postal 
+                <input type="text" id="name" name="username">
+              </label>
 
-input:focus, textarea:focus {
+              <label for="number">
+                Ville 
+                <input type="text" id="name" name="username">
+              </label>
+          </p>
+          <p>
+            <label for="number">
+                Téléphone:
+                <input type="text" id="name" name="username">
+              </label>
+          </p>
 
-  border-color: #000;
-}
+          <p>
+            <label for="number">
+                E-mail: 
+                <input type="text" id="name" name="username">
+              </label>
+          </p>
 
-textarea {
-  
-  vertical-align: top;
+          <p> 
+              <button type="submit">envoyer</button>
+            <button type="submit">reset</button>         
+        </p>
 
-  
-  height: 5em;
-}
+    </fieldset>        
 
-.button {
-  
-  padding-left: 90px; 
-}
-
-button {
-  
-  margin-left: .5em;
-}
-
-    </style>
-        
-        <p>Civilité:</p>
-
-        <div>
-            <input type="radio" id="Mr" name="Civilité" value="Mr"
-                   checked>
-            <label for="Mr">Mr</label>
-        </div>
-
-        <div>
-            <input type="radio" id="Mme ou Mlle" name="Civilité" value="Mme ou Mlle"
-                   checked>
-            <label for="Mme ou Mlle">Mme ou Mlle</label>
-        </div>
-
-       <div>
-            <label for="Nom">Nom</label>
-            <input type="text" id="Nom" name="Nom1"
-                   checked>
-        </div>
-
-        <div>
-            <label for="Prénom">Prénom</label>
-            <input type="text" id="Prénom" name="Prénom1"
-                   checked>
-        </div>
-        
-        
-        <label for="Date de naissance">Date de naissance</label>
-        <select name="Date de naissance" id="choisir date de naissance">
-           
-            <option value="1">1</option>                                                                                  
-            <option value="2">2</option>                             
-            <option value="3">3</option>
-        </select>
-        <select name="Date de naissance" id="choisr date de naissance">
-
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    
-        
-        
-        <div>
-            <label for="Anneé">Anneé</label>
-            <input type="text" id="Anneé" name="Anneé1"
-                   checked>
-        </div>
-        
-
-        <div>
-            <label for="Numéro">Numéro</label>
-            <input type="text" id="Numéro" name="Numéro1"
-                   checked>
-        </div>
-    
-        
-
-        <div>
-            <label for="Rue">Rue</label>
-            <input type="text" id="Rue" name="Rue1"
-                   checked>
-        </div>
-
-        <p>Adresse:</p>
-
-        
-        
-        <div>
-            <label for="Code postal">Code postal</label>
-            <input type="text" id="Code postal" name="Code postal"
-                   checked>
-        </div>
-
-        
-        
-        <div>
-            <label for="Ville">Ville</label>
-            <input type="text" id="Ville" name="Ville1"
-                   checked>
-        </div>
-        
-
-        
-        <div>
-            <label for="Téléphone:">Téléphone:</label>
-            <input type="text" id="Téléphone" name="Téléphone1"
-                   checked>
-        </div>
-
-        
-
-        <div>
-            <label for="mail">E-mail:</label>
-            <input type="text" id="E-mail" name="E-mail1"
-                   checked>
-        </div>
-     
-        <input type="submit" value="Envoyer">
-        <input type="submit" value="Remise à zéro">
-
-    
-    
+    </form>
     </body>
 </html>
