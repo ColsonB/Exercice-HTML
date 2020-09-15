@@ -1,0 +1,170 @@
+<html>
+    <head>
+        <title>Formulaire</title>
+    </head>
+
+    <body>
+        <style>
+             form {
+ 
+  margin: 0 auto;
+  width: 400px;
+  
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  
+  font: 1em sans-serif;
+
+  
+  width: 300px;
+  box-sizing: border-box;
+
+ 
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+
+  border-color: #000;
+}
+
+textarea {
+  
+  vertical-align: top;
+
+  
+  height: 5em;
+}
+
+.button {
+  
+  padding-left: 90px; 
+}
+
+button {
+  
+  margin-left: .5em;
+}
+
+    </style>
+        
+        <p>Civilité:</p>
+
+        <div>
+            <input type="radio" id="Mr" name="Civilité" value="Mr"
+                   checked>
+            <label for="Mr">Mr</label>
+        </div>
+
+        <div>
+            <input type="radio" id="Mme ou Mlle" name="Civilité" value="Mme ou Mlle"
+                   checked>
+            <label for="Mme ou Mlle">Mme ou Mlle</label>
+        </div>
+
+       <div>
+            <label for="Nom">Nom</label>
+            <input type="text" id="Nom" name="Nom1"
+                   checked>
+        </div>
+
+        <div>
+            <label for="Prénom">Prénom</label>
+            <input type="text" id="Prénom" name="Prénom1"
+                   checked>
+        </div>
+        
+        
+        <label for="Date de naissance">Date de naissance</label>
+        <select name="Date de naissance" id="choisir date de naissance">
+           
+            <option value="1">1</option>                                                                                  
+            <option value="2">2</option>                             
+            <option value="3">3</option>
+        </select>
+        <select name="Date de naissance" id="choisr date de naissance">
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    
+        
+        
+        <div>
+            <label for="Anneé">Anneé</label>
+            <input type="text" id="Anneé" name="Anneé1"
+                   checked>
+        </div>
+        
+
+        <div>
+            <label for="Numéro">Numéro</label>
+            <input type="text" id="Numéro" name="Numéro1"
+                   checked>
+        </div>
+    
+        
+
+        <div>
+            <label for="Rue">Rue</label>
+            <input type="text" id="Rue" name="Rue1"
+                   checked>
+        </div>
+
+        <p>Adresse:</p>
+
+        
+        
+        <div>
+            <label for="Code postal">Code postal</label>
+            <input type="text" id="Code postal" name="Code postal"
+                   checked>
+        </div>
+
+        
+        
+        <div>
+            <label for="Ville">Ville</label>
+            <input type="text" id="Ville" name="Ville1"
+                   checked>
+        </div>
+        
+
+        
+        <div>
+            <label for="Téléphone:">Téléphone:</label>
+            <input type="text" id="Téléphone" name="Téléphone1"
+                   checked>
+        </div>
+
+        
+
+        <div>
+            <label for="mail">E-mail:</label>
+            <input type="text" id="E-mail" name="E-mail1"
+                   checked>
+        </div>
+     
+        <input type="submit" value="Envoyer">
+        <input type="submit" value="Remise à zéro">
+
+    
+    
+    </body>
+</html>
