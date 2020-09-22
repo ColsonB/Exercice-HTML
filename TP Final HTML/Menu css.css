@@ -5,7 +5,16 @@ div#menu{
     display:flex;
     justify-content:center;
     flex-direction:column;
-    height:50px;
+    height:100px;
 
+}
+div#contacter{
+    widows:1960px;
+    height:100px;
+    background-color:black;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
 }
 
