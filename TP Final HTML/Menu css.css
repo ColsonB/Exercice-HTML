@@ -1,0 +1,11 @@
+div#menu{
+    text-align:center;
+    background-color:black;
+    widows:1920px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    height:50px;
+
+}
+
