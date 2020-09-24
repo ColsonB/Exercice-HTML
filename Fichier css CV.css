@@ -1,13 +1,26 @@
-div#présentation{
-    text-align:center; /* center allows to center the text on the web page */
-    }
-div#personalprofil{  
-    text-align:left;  /* left allows to put the text on the left */
+#présentation{
+    text-align:center;              /* center allows to center the text on the web page */
+    font-size: 16px;
+    margin: 5%;
 }
-div#educationandtraining{ 
-    text-align:left;
+#personalprofil{  
+    text-align:center;              /* left allows to put the text on the left */
+    font-size: 16px;
 }
-div#workexperience{
-    text-align:left;
-
+#educationandtraining{ 
+    text-align:center;
+    font-size: 16px;
+    display:flex;                   /* flex is used for the layout of modular box */
+    justify-content:center;         /* justify-content is used to center the text in the modular box */
+    flex-direction:column;
+}
+#workexperience{
+    text-align:center;
+    font-size: 16px;               /* font-size is used to increase font-size */
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+#cv{
+    border:1px solid black;     /* border is used to put a border */
 }
