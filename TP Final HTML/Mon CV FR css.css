@@ -1,0 +1,27 @@
+#présentation{
+    text-align:center;              
+    font-size: 16px;
+    margin: 5%;
+}
+#expérienceprofessionnelles{  
+    text-align:center;             
+    font-size: 16px;
+}
+#formations{ 
+    text-align:center;
+    font-size: 16px;
+    display:flex;                   
+    justify-content:center;         
+    flex-direction:column;
+}
+#compétences{
+    text-align:center;
+    font-size: 16px;               
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    
+}
+#cv{
+    border:1px solid black;     
+}
