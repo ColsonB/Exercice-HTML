@@ -11,25 +11,20 @@
     text-align:left;
 }
 #menu{
-    text-align:center;
-    background-color:gray;
+    background-color:black;
     widows:1920px;
     display:flex;
     justify-content:center;
     flex-direction:column;
-    height:100px;
-    
-
-}
-#contacter{
-    widows:1920px;
-    height:100px;
-    background-color:gray;
-    text-align:center;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;    
+    height:50px;
 } 
+#menu1{
+    text-align: left;
+} 
+#contacter {
+    text-align: right;
+    color: white;
+}
 #présentation{
     text-align:center;              
     font-size: 16px;
@@ -57,3 +52,4 @@
 #cv{
     border:1px solid black;     
 }
+
