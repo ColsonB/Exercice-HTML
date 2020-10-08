@@ -5,15 +5,15 @@
 }
 
 .personalprofil{  
-    text-align:left; 
+    text-align:center; 
 }
 
 .educationandtraining { 
-    text-align:left;
+    text-align:center;
 }
 
 .workexperience {
-    text-align:left;
+    text-align:center;
 }
 
 #menu {
@@ -151,7 +151,7 @@ nav > ul li:hover #sous {
 }
 
 body {
-    background-image:url(images/Char\ Sherman.jpg);
+    background-image:url(Images/Char\ Sherman.jpg);
     background-size:cover;
     background-repeat:no-repeat;
 }   
