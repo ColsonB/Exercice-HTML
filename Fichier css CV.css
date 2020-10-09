@@ -1,20 +1,21 @@
-#présentation{
+.présentation{
     text-align:center;              /* center allows to center the text on the web page */
     font-size: 16px;
     margin: 5%;
 }
-#personalprofil{  
+.personalprofil{  
     text-align:center;              /* left allows to put the text on the left */
     font-size: 16px;
+    
 }
-#educationandtraining{ 
+.educationandtraining{ 
     text-align:center;
     font-size: 16px;
     display:flex;                   /* flex is used for the layout of modular box */
     justify-content:center;         /* justify-content is used to center the text in the modular box */
     flex-direction:column;
 }
-#workexperience{
+.workexperience{
     text-align:center;
     font-size: 16px;               /* font-size is used to increase font-size */
     display:flex;
@@ -22,6 +23,25 @@
     flex-direction:column;
     
 }
-#cv{
-    border:1px solid black;     /* border is used to put a border */
+header, footer {    
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 15px #333;
+}
+footer {
+    border-top: 2px solid #fff;
+}
+.skilllanguage {
+    text-align:center;
+    font-size: 16px;               
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.skillit {
+    text-align:center;
+    font-size: 16px;               
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
 }
