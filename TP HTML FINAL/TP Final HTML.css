@@ -1,49 +1,19 @@
-.présentation{
-    text-align:center;              /* center allows to center the text on the web page */
-    font-size: 16px;
-    margin: 5%;
+.présentation1{
+    text-align:center; 
+    font-size:16px;
+    margin:5%;
 }
+
 .personalprofil{  
-    text-align:center;              /* left allows to put the text on the left */
-    font-size: 16px;
-    
+    text-align:center; 
 }
-.educationandtraining{ 
+
+.educationandtraining { 
     text-align:center;
-    font-size: 16px;
-    display:flex;                   /* flex is used for the layout of modular box */
-    justify-content:center;         /* justify-content is used to center the text in the modular box */
-    flex-direction:column;
 }
-.workexperience{
+
+.workexperience {
     text-align:center;
-    font-size: 16px;               /* font-size is used to increase font-size */
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    
-}
-header, footer {    
-    width: 100%;
-    padding: 20px 0px;
-    box-shadow: 0px 0px 15px #333;
-}
-footer {
-    border-top: 2px solid #fff;
-}
-.skilllanguage {
-    text-align:center;
-    font-size: 16px;               
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-}
-.skillit {
-    text-align:center;
-    font-size: 16px;               
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
 }
 
 #menu {
@@ -65,17 +35,14 @@ footer {
 }
 
 .présentation {
-    text-align:center;             
-    font-size: 16px;
-    margin: 5%;
+    text-align:center;              
+    font-size:16px;
+    margin:5%;
 }
 
 .expérienceprofessionnelles {  
-    text-align:center;
-    font-size: 16px;               
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
+    text-align:center;             
+    font-size: 16px;
 }
 
 .formations { 
@@ -92,10 +59,8 @@ footer {
     display:flex;
     justify-content:center;
     flex-direction:column;
-} 
-.char {
-    
-} 
+}
+
 * {
     margin:3px;
     padding:0px;
@@ -184,3 +149,12 @@ nav > ul li:hover #sous {
     border-bottom:none;
     background-color:RGBa(200,200,200,0.1);
 }
+
+body {
+    background-image:url(Images/Char\ Sherman.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+}   
+.char {
+    border:3px dotted black;
+} 
