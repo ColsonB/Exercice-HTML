@@ -6,16 +6,40 @@
 
 .personalprofil{  
     text-align:center; 
+    font-size:16px;
+    margin:5%; 
 }
 
 .educationandtraining { 
-    text-align:center;
+    text-align:center; 
+    font-size:16px;
+    margin:5%;
 }
 
 .workexperience {
-    text-align:center;
+    text-align:center; 
+    font-size:16px;
+    margin:5%;
 }
-
+.skilllanguage {
+    text-align:center; 
+    font-size:16px;
+    margin:5%;
+}
+.skillit {
+    text-align:center; 
+    font-size:16px;
+    margin:5%;
+}
+header, footer {
+    width: 100%;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 15px #333;
+    text-align: center;
+}
+footer {
+    border-top: 2px solid #fff;
+}
 #menu {
     background-color:black;
     width:1430px;
@@ -62,7 +86,6 @@
 }
 
 * {
-    margin:3px;
     padding:0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -73,8 +96,7 @@ nav {
     background-color:black;
     position:sticky;
     top:0px;
-    border:1px dotted black;
-    opacity:0.9;
+    opacity: 0px;
 }
 
 nav ul {
@@ -126,7 +148,8 @@ nav a:hover {
 #sous {     
     display:none;
     box-shadow:0px 1px 2px #CCC;
-    opacity: 0px;
+    background-color: white;
+    
 }
 
 nav > ul li:hover #sous {
@@ -150,11 +173,23 @@ nav > ul li:hover #sous {
     background-color:RGBa(200,200,200,0.1);
 }
 
-body {
-    background-image:url(Images/Char\ Sherman.jpg);
+.mark {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.présentationchars {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.premierchar1 {
+    background-image:url(Images/premierchar.jpg);
     background-size:cover;
     background-repeat:no-repeat;
-}   
-.char {
-    border:3px dotted black;
-} 
+}
+
+
+
