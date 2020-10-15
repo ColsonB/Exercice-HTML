@@ -1,10 +1,11 @@
-html {
-    background-image:url(Images/Char\ Sherman.jpg);
+body {
+    background-image:url(images/Char\ Sherman.jpg);
     background-size:cover;
     background-repeat:no-repeat;
 } 
-
 * {
+    margin:3px;
+    padding:0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +15,8 @@ nav {
     background-color:black;
     position:sticky;
     top:0px;
-    opacity: 0px;
+    border:1px dotted black;
+    opacity:0.9;
 }
 
 nav ul {
@@ -26,8 +28,11 @@ nav ul {
 
 nav li {
     display:inline-block;
+    width:100px;
+    height:100px;
     margin:0px;
     padding:0px;
+    text-align:center;
     line-height:40px;
 }
 
@@ -35,11 +40,17 @@ nav li a {
     text-decoration:none;
     color: black;
 }
-
 nav ul li {
     float:left;
     width:25%;
     text-align:center;
+}
+
+nav ul::after 
+{
+    content:"";
+    display:table;
+    clear:both;
 }
 
 nav a {
@@ -51,13 +62,13 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom:2px solid #000000;
+    border-bottom:2px solid royalblue;
 }
 
 #sous {     
     display:none;
     box-shadow:0px 1px 2px #CCC;
-    overflow: 0px;
+    background-color: white;
 }
 
 nav > ul li:hover #sous {
